@@ -34,6 +34,18 @@ header {
     margin: 0;
 }
 
+.home-link:hover {
+    text-decoration: none;
+}
+
+.name, .title {
+    color: #ffffff;
+}
+
+.name {
+    padding-top: 10px;
+}
+
 
 #nav {
     position: relative;
@@ -43,6 +55,7 @@ header {
 
 .nav-item {
     color: #000000;
+    padding: 10px;
 }
 
 
