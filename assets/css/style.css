@@ -4,7 +4,17 @@
 /* ---------------------------------------- Colours */
 
 
+/* I added the HTML tag so that my image would cover the full viewport */
+html {
+    height: 100%;
+}
 
+body {
+    background-image: url("../images/entwistle-sunset1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
