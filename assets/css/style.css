@@ -11,6 +11,7 @@
 /* ---------------------------------------- Header */
 
 
+
 #nav {
     position: relative;
     float: right;
@@ -50,5 +51,4 @@ footer {
 .social-links a i {
     height: 32px;
     width: 32px;
-    
 }
