@@ -1,6 +1,28 @@
 
+
+
+/* ---------------------------------------- Colours */
+
+
+
+
+
+
 /* ---------------------------------------- Header */
 
+
+#nav {
+    position: relative;
+    float: right;
+    margin: 25px;
+}
+
+.nav-item {
+    color: #000000;
+}
+
+
+/* ---------------------------------------- Section */
 
 
 
@@ -13,13 +35,20 @@
 
 footer {
     width: 100%;
-    height: 5%;
+    min-height: 5%;
+    margin: 0;
     background-color: aqua;
     position: absolute;
     bottom: 0;
 }
 
 .social-links {
-    right: 0;
-    text-align: center;
+    right: 100px;
+    text-align: right;
+}
+
+.social-links a i {
+    height: 32px;
+    width: 32px;
+    
 }
