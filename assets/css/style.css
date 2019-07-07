@@ -4,6 +4,12 @@
 /* ---------------------------------------- Colours */
 
 
+.container-style {
+    background-color: rgba(139, 134, 121, 0.41);
+}
+
+
+/* ---------------------------------------- Misc */
 /* I added the HTML tag so that my image would cover the full viewport */
 html {
     height: 100%;
@@ -16,10 +22,17 @@ body {
     background-size: cover;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 
 
 /* ---------------------------------------- Header */
 
+header {
+    margin: 0;
+}
 
 
 #nav {
@@ -46,19 +59,27 @@ body {
 
 footer {
     width: 100%;
-    min-height: 5%;
     margin: 0;
-    background-color: aqua;
     position: absolute;
     bottom: 0;
 }
 
 .social-links {
-    right: 100px;
-    text-align: right;
+    padding-bottom: 15px;
 }
 
-.social-links a i {
-    height: 32px;
+.social-links li a i {
     width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+#footer-padding {
+    padding: 20px;
 }
