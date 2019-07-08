@@ -5,7 +5,7 @@
 
 
 .container-style {
-    background-color: rgba(139, 134, 121, 0.41);
+    background-color: rgba(139, 134, 121, 0);
 }
 
 
@@ -39,7 +39,7 @@ header {
 }
 
 .name, .title {
-    color: #ffffff;
+    color: #000000;
 }
 
 .name {
@@ -56,6 +56,11 @@ header {
 .nav-item {
     color: #000000;
     padding: 10px;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: #000000;
 }
 
 
