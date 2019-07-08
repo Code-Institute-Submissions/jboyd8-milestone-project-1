@@ -41,12 +41,13 @@ header {
 .name, .title {
     font-family: 'Lato', sans-serif;
     color: #000000;
+    padding-left: 15px;
 }
 
 
 /* I seperated the padding of name as it was too close to the top of the page but I was happy with the spacing between name and title */
 .name { 
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 .navbar {
