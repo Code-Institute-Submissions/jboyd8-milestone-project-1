@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 
-/* ---------------------------------------- Colours */
-
-
-.container-style {
-    background-color: rgba(139, 134, 121, 0);
-}
 
 
 /* ---------------------------------------- Misc */
@@ -32,6 +26,10 @@ html {
 
 header {
     margin: 0;
+}
+
+.not-index-header {
+    background-color: #e6dcc7;
 }
 
 .home-link:hover {
@@ -99,6 +97,10 @@ footer {
     bottom: 0;
 }
 
+.not-index-footer {
+    background-color: #e6dcc7;
+}
+
 .social-links {
     padding-bottom: 15px;
 }
@@ -126,4 +128,8 @@ footer {
 #footer-padding {
     padding: 20px;
     color: #fafafa;
+}
+
+.footer-color {
+    color: #000000;
 }
