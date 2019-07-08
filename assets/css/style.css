@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-image: url("../images/entwistle-sunset1.jpg");
+    background-image: url("../images/portugal-sunset-lighthouse.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,4 +112,5 @@ footer {
 
 #footer-padding {
     padding: 20px;
+    color: #fafafa;
 }
