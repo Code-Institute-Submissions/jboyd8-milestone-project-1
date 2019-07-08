@@ -82,7 +82,27 @@ header {
 /* ---------------------------------------- Section */
 
 
+.about-image {
+    background-image: url("../images/about-me.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: 50px;
+}
 
+.about-text {
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.youtube-links {
+    color: #000000;
+}
+.youtube-links:hover {
+    color: #000000;
+    text-decoration: none;
+}
 
 
 
@@ -99,6 +119,14 @@ footer {
 
 .not-index-footer {
     background-color: #e6dcc7;
+    position: relative;
+}
+
+@media (min-width: 576px) {
+    .not-index-footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 .social-links {
