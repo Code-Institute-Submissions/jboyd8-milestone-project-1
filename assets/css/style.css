@@ -15,7 +15,7 @@ html {
     height: 100%;
 }
 
-body {
+.body-image {
     background-image: url("../images/portugal-sunset-lighthouse.jpg");
     background-position: center;
     background-repeat: no-repeat;
