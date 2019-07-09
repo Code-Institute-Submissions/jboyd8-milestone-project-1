@@ -113,6 +113,20 @@ header {
     margin: 20px;
 }
 
+.card-deck {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 300px;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #e6dcc7;
+    border-color: #e6dcc7;
+}
+
 
 /* --------------------------------- Contact */
 
