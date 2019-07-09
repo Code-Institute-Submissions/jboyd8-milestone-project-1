@@ -107,6 +107,12 @@ header {
 
 /* --------------------------------- Gallery */
 
+.container-gallery {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
 
 /* --------------------------------- Contact */
 
@@ -153,6 +159,11 @@ footer {
         position: absolute;
         bottom: 0;
     }
+}
+
+.gallery-footer {
+    background-color: #e6dcc7;
+    position: relative;
 }
 
 .social-links {
