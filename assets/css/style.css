@@ -123,9 +123,13 @@ header {
 
 @media (min-width: 576px) {
     .form-container {
-        max-width: 60%;
+        max-width: 50%;
         padding-top: 5%;
     }
+}
+
+.contact-heading {
+    margin: 20px;
 }
 
 
