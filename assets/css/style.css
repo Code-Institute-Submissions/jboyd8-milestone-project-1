@@ -120,6 +120,9 @@ header {
     margin: 20px;
 }
 
+/* I created various containers on my website pages as this allowed me to have greater control over the overall 
+    content on the page interms of postion and responsiveness. */
+
 .container-gallery {
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -143,6 +146,9 @@ the reason I chose a custom width rather than the generic break points was becau
 .card img {
     height: 300px;
 }
+
+/* I altered the styles for the below two classes manually. These come with defaults from bootstrap but I 
+    wanted to amend them to match the color theme of the website */
 
 .btn-primary {
     color: #000000;
@@ -216,6 +222,9 @@ footer {
 .social-links {
     padding-bottom: 15px;
 }
+
+/* I used the code below from the lesson where we built a resume. I liked the styles used on that and wanted to use them for my site.
+    I changed the colors etc to match my color theme. */
 
 .social-links li a i {
     width: 32px;
