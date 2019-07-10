@@ -15,6 +15,27 @@ The About and Contact pages were going to be the two most simple pages on my sit
 
 In terms of keeping my website repititive and easy to learn, I wanted to ensure the navigation remianed in the same place where possible (it would fall into a collapsible button at mobile level). I wanted to ensure all my pages followed the same structure and color theme throughout the site with the exception of my landing page, due to the fact the background image would be full size.
 
+Below are pictures of my wireframes that I created prior to development. My wireframes were just a bare bones design. As Development progressed a made various changes as to what I thought looked better etc. But I used the wireframes initially to transform the idea.
+
+### index.html
+![](assets/wireframes/indexweb.png)
+![](assets/wireframes/indexphone.png)
+
+### about.html
+![](assets/wireframes/aboutweb.png)
+![](assets/wireframes/aboutphone.png)
+
+### gallery.html
+![](assets/wireframes/galleryweb.png)
+![](assets/wireframes/galleryphone.png)
+
+### contact.html
+![](assets/wireframes/contactweb.png)
+![](assets/wireframes/contactphone.png)
+
+
+
+
 ## Features
 ---
 
