@@ -34,6 +34,7 @@
 * Font Awesome<br>
 * https://htmlcolorcodes.com/<br>
 * https://ianlunn.github.io/Hover/<br>
+* http://clipartmag.com/<br>
 
 
 ## Testing
