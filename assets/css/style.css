@@ -178,6 +178,10 @@ the reason I chose a custom width rather than the generic break points was becau
     margin: 20px;
 }
 
+.query-box-height {
+    height: 200px;
+}
+
 
 
 /* ----------------------------------------------------------------------------------------------------------------------- Footer */
