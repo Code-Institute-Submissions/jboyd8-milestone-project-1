@@ -81,6 +81,12 @@ header {
 
 /* --------------------------------------------------------------------------------- About */
 
+.about-heading {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
 .about-image {
     background-image: url("../images/about-me.jpg");
     background-size: cover;
@@ -104,6 +110,12 @@ header {
 }
 
 /* -------------------------------------------------------------------------------- Gallery */
+
+.gallery-heading {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
 
 .container-gallery {
     font-family: "Roboto", sans-serif;
