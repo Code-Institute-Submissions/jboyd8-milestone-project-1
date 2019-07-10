@@ -111,6 +111,16 @@ header {
     margin: 20px;
 }
 
+/* I chose to have the below media query only affect sizes 1370px and above because I am happy with the way the images look on all screen sizes below that, however, they looked too strecthed on a a big monitor. 
+the reason I chose a custom width rather than the generic break points was because I had to take the ipad pro in landscape form into account.  */
+
+@media (min-width: 1370px) {
+    .container-gallery {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
 .card-deck {
     margin-bottom: 20px;
 }
