@@ -9,10 +9,16 @@
 ## UX
 ---
 
-<p>When I started to design this website I wanted to ensure it was a sleek and simple design, almost minimalist. I knew that I wanted my images to be the main focal point of the website. This is why I decided to go with a full age image for the landing page. I didn't want this to be cluttered with anymore information other than what was required. The Gallery page would be the next most important as this would be where a user will go to view my images.</p>
+<p>When I started to design this website I wanted to ensure it was a sleek and simple design, almost minimalist. I knew that I wanted my images to be the main focal point of the website. This is why I decided to go with a full age image for the landing page. I didn't want this to be cluttered with anymore information other than what was required. The Gallery page would be the next most important as this would be where a user will go to view my images. Again I wanted to draw the users eye towards the images. My initial design was just to have images side by side with no text. However, when building the site I came across "cards" in bootstrap and decided that would be how I would set out my gallery. This was I could also provide the tech specs of how the Image was shot which other photographers may be interested to see.</p>
+
+<p>The About and Contact pages were going to be the two most simple pages on my site. The contact page would just be a place where users could reach out to me with various queries. It would just contact in form. Similarly with the About page, this would just be split into two columns at desktop level, and one column at mobile level. The first column would contain a picture of mysefl and the second column would be where I would provide text.</p>
+
+<p>In terms of keeping my website repititive and easy to learn, I wanted to ensure the navigation remianed in the same place where possible (it would fall into a collapsible button at mobile level). I wanted to ensure all my pages followed the same structure and color theme throughout the site with the exception of my landing page, due to the fact the background image would be full size.</p>
 
 ## Features
 ---
+
+
 
 ## Technologies Used
 ---
