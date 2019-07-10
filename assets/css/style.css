@@ -53,8 +53,6 @@ header {
 }
 
 
-
-
 #navbarNavDropdown {
     font-family: 'Lato', sans-serif;
     position: relative;
@@ -62,10 +60,10 @@ header {
     justify-content: flex-end;
 }
 
-
-.nav-item {
-    color: #000000;
-    padding: 10px;
+@media (min-width: 576px) {
+    .nav-item {
+        padding: 10px;
+    }
 }
 
 .nav-item:hover {
