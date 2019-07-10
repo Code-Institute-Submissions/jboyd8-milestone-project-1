@@ -53,7 +53,7 @@
     <!-- ---------------------------------------------------------------------------------------------------------Section -->
 
     <!--For this section i copied code from Bootstrap to create "card decks". I copied the basic card deck code and replaced some items.
-    I removed the small print that initially came with the card as it wasnt required for my project. I added in a button to the bottom of the crad 
+    I removed the small print that initially came with the card as it wasnt required for my project. I added in a button to the bottom of the card 
     body so that a user can click to see the full size image. I added the target so it opens in a different tab and also changed the CSS on the default 
     color to match my colour theme. I then wrapped it in .container-gallery so I could alter the font and structure.-->
 
@@ -239,6 +239,10 @@
 
 
     <!-- ---------------------------------------------------------------------------------------------------------Footer -->
+
+    <!-- I created a custom class just for the gallery footer because it needs to be relative as the images on the gallery page will
+        be longer than the page itself. -->
+
     <footer class="gallery-footer">
         <div class="container-fluid container-style">
             <div class="row" id="footer-padding">
@@ -266,6 +270,9 @@
         </div>
 
     </footer>
+
+
+    <!--The below scripts are here because I have used Bootstraps built in collapsible menu and they use Javascript to run. -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

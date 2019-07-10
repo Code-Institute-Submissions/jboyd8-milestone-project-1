@@ -19,15 +19,21 @@
 
     <!-- ---------------------------------------------------------------------------------------------------------Header -->
     <header>
+
+        <!-- I added the container-fluid class onto various elements of my code so that it would fill 100% width of the page without any whitespace. Additionally as I was using the Bootstrap grid system, 
+            each row needs to be a child of a container, and each column needs to be a child of a column.-->
         <div class="container-fluid">
             <div class="row no gutters">
                 <div class="col-8 col-md-6">
                     <a href="index.html" class="home-link">
+                        <!-- I created the class uppercase so that I can easily captalize any text throughtout my website.-->
                         <h2 class='name uppercase'>Jamie Boyd</h2>
                         <h5 class='title uppercase'>Landscape Photographer</h5>
                     </a>
                 </div>
                 
+                <!-- I used Bootstraps Navbar as I wanted to create a menu that collapsed into a collapsible menu when being viewed on xs sized devices so that it didnt take up too much real estate on the webpage.
+                    I also referred to a previous lesson in the user-centric module when creating this nav bar. -->
                 <nav class="col-4 col-md-6 navbar navbar-light navbar-expand-sm">
 
                     <button class='navbar-toggler ml-auto' type="button" data-toggle='collapse' data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,6 +69,7 @@
                 </div>
                 <div class="col-6">
                     <h6 class="uppercase">Social</h6>
+                    <!--I used the list-inline item so that my social links would display next to each other. Each item also has to have a class of list-inline-item -->
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://500px.com/jamieboyd">
@@ -80,6 +87,8 @@
         </div>
 
     </footer>
+
+    <!--The below scripts are here because I have used Bootstraps built in collapsible menu and they use Javascript to run. -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
