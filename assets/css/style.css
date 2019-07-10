@@ -32,6 +32,8 @@ header {
     background-color: #e6dcc7;
 }
 
+/* I used text-decoration:none on nearly all my :hover classes as I dont like the default look of being underlined */
+
 .home-link:hover {
     text-decoration: none;
 }
@@ -142,6 +144,9 @@ the reason I chose a custom width rather than the generic break points was becau
 .card-deck {
     margin-bottom: 20px;
 }
+
+/* Although I used the bootstrap card decks for the core layout of my gallery page, I still had to set a height to the images for them to appear. This was 
+    something I required help from the Slack community for. */
 
 .card img {
     height: 300px;
