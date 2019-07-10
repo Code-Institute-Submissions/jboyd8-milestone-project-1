@@ -60,6 +60,8 @@ header {
     justify-content: flex-end;
 }
 
+/* I added multiple media queries throughout my CSS to ensure that y website was responsive at all screen sizes */
+
 @media (min-width: 576px) {
     .nav-item {
         padding: 10px;
@@ -104,6 +106,7 @@ header {
 .youtube-links {
     color: #000000;
 }
+
 .youtube-links:hover {
     color: #000000;
     text-decoration: none;
