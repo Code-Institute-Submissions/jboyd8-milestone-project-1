@@ -75,5 +75,13 @@ Additionally to the above, I also provided my GitHub pages link to various peopl
 ---
 My website was created using VSCode. VSCode is a text editor with a built in terminal. I chose to use a text editor/IDE outside of AWS Cloud9 to gain experience working outside of a browser. Once I had created my file strcuture and first HTML page, i initiated a local repository using GIT which was downloaded onto my machine previously. I then created an external repository in GitHub and linked the local and external repositories. This allowed me to version control throughout the lifespan of the development.
 
+To deploy the website to GitHub pages, I followed the below steps:
+* Selected the milestone-project-1 from my GitHub dashboard.
+* Selected 'Settings' from the menu bar.
+* From the GitHub pages section, I chose 'master branch' from the dropdown menu.
+* Once selected, the page refreshed and a link was displayed in the GitHub pages section to my wesbite.
+* [Website Link](https://jboyd8.github.io/milestone-project-1/)
+
+
 ## Credits
 ---
