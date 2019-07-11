@@ -32,6 +32,7 @@ header {
     background-color: #e6dcc7;
 }
 
+
 /* I used text-decoration:none on nearly all my :hover classes as I dont like the default look of being underlined */
 
 .home-link:hover {
@@ -119,7 +120,7 @@ header {
 .gallery-heading {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    margin: 20px;
+    padding-top: 20px;
 }
 
 /* I created various containers on my website pages as this allowed me to have greater control over the overall 
@@ -150,6 +151,10 @@ the reason I chose a custom width rather than the generic break points was becau
 
 .card img {
     height: 300px;
+}
+
+.card-img-top {
+    object-fit: cover;
 }
 
 /* I altered the styles for the below two classes manually. These come with defaults from bootstrap but I 
