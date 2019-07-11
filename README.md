@@ -50,7 +50,7 @@ Below is a list of technologies I have used to build out my site.
 * CSS3 - CSS was used to style my pages.
 * [Bootstrap](https://getbootstrap.com/) - I used the Bootstrap framework alot during development. It was an efficeint way of creating the desired layout for my website. It also provided me with the possibilty to use ready made code for some parts of my website, such as the Nav bar and the contact form. I used Bootstrap to assist in building a Mobile-first approach website.
 * VSCode - This is my text editor. It has a built in terminal so I could do everything I needed to from one environment.
-* Git - Git was used for version control. Allowing me to create backups whenever significant changed were made to my code.
+* Git - Git was used for version control. Allowing me to create backups whenever significant changes were made to my code.
 * [GitHub](https://github.com/) - This is where my repository is held externally. I will aslo use GitHub pages to deploy my website.
 * Javascript/JQuery - This was imported via the Bootstrap framework to enable me to create a responsive collapsible nav bar at smaller screen sizes.
 * [Google Fonts](https://fonts.google.com/) - Used to import specific fonts I wanted to use on my website.
