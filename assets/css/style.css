@@ -98,11 +98,13 @@ header {
     background-position: center;
     min-height: 400px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about-text {
     font-family: "Roboto", sans-serif;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding-left: 50px;
 }
 
@@ -215,13 +217,6 @@ footer {
 .not-index-footer {
     background-color: #e6dcc7;
     position: relative;
-}
-
-@media (min-width: 576px) {
-    .not-index-footer {
-        position: absolute;
-        bottom: 0;
-    }
 }
 
 .gallery-footer {
