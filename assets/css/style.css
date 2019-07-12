@@ -33,6 +33,8 @@ header {
 }
 
 
+
+
 /* I used text-decoration:none on nearly all my :hover classes as I dont like the default look of being underlined */
 
 .home-link:hover {
@@ -215,9 +217,30 @@ footer {
     bottom: 0;
 }
 
-.not-index-footer {
+/* I seperated the about and contact footer out to combat a responsiveness issue. I needed a smaller min-width for the contact page to ensure it looked good on the iPad due to the smaller conect in the section tag */
+
+.about-footer {
     background-color: #e6dcc7;
     position: relative;
+}
+
+@media (min-width: 1000px){
+    .about-footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.contact-footer {
+    background-color: #e6dcc7;
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .contact-footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 .gallery-footer {
