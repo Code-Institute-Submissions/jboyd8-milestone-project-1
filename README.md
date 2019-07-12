@@ -43,7 +43,7 @@ Below are pictures of my wireframes that I created prior to development. My wire
 
 
 
-## Technologies Used
+## Technologies/Support Used
 ---
 Below is a list of technologies I have used to build out my site.
 * HTML5 - HTML5 provided the content and the structure of my website. I tried to use semantic elements where possible to ensure the best structure.
@@ -60,6 +60,7 @@ Below is a list of technologies I have used to build out my site.
 * [Clip Art Mag](http://clipartmag.com/) - Used this free website to get the favicon for my website.
 * Balsamiq - Used to build out wireframes for my website.
 * [W3C Validator](https://www.w3.org/) - A validator used to check my HTML and CSS structure and format periodically throughout the build.
+* [W3Schools](https://www.w3schools.com/) - I used this to ensure I was entering all the information required correctly in my HTML and CSS.
 
 
 ## Testing
