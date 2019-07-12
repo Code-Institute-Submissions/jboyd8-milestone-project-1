@@ -10,7 +10,7 @@ html {
 }
 
 .body-image {
-    background-image: url("../images/portugal-sunset-lighthouse.jpg");
+    background-image: url("../images/portugalsunsetlighthouse.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,7 +93,7 @@ header {
 }
 
 .about-image {
-    background-image: url("../images/about-me.jpg");
+    background-image: url("../images/aboutme.jpg");
     background-size: cover;
     background-position: center;
     min-height: 400px;
