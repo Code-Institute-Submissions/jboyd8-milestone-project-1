@@ -17,6 +17,8 @@ In terms of keeping my website repititive and easy to learn, I wanted to ensure 
 
 I chose Roboto and Lato as my fonts because I wanted to create quire a relaxed feel to the page. With photography being an art, I didnt want the font to feel too 'corporate like'. This also factored into my decision when choosing the color scheme. I wanted to keep it very nuetral and not too 'in your face' with any bright bold colors. This is why I kept the background white with the exception of the landing page.
 
+Ultimately, I am a major photography fan, and I want the user to get a feel for that. The images on the website should be the most prominent feature and everything else should be as subtle as possible.
+
 Below are pictures of my wireframes that I created prior to development. My wireframes were just a bare bones design. As Development progressed a made various changes as to what I thought looked better etc. But I used the wireframes initially to transform the idea.
 
 ### index.html
@@ -40,7 +42,13 @@ Below are pictures of my wireframes that I created prior to development. My wire
 
 ## Features
 ---
+#### Current Features
+* About Me - A page whereby user can go to learn a little bit more about me.
+* Gallery - A page to view my a small version of my images, with the option to open up a larger image.
+* Contact - A form so that users can get in touch with any queries or to collaborate.
 
+#### Future Features
+* Store - A store would be a great addition to the website to allow users to purchase images without having to contact me directly.
 
 
 ## Technologies/Support Used
@@ -90,3 +98,6 @@ To deploy the website to GitHub pages, I followed the below steps:
 
 ## Credits
 ---
+* To my mentor, Reuben Ferrante, for guding me through the process and offering assistance when neccesary to point me in the right direction.
+* The Slack community. The help a student is able to receive from the other students is a really great tool to have.
+* Anthony O'Brian and Anna Greaves. The two leads in the User Centric Front End Slack channel during the development of my project. They provide alot of people with good quality help on a daily basis. Additionally, some of Anna's extra documentation that she has created herself came in very useful before and during development.
