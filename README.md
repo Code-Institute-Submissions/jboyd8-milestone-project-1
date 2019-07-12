@@ -82,7 +82,7 @@ Additionally to the above, I also provided my GitHub pages link to various peopl
 
 #### Bugs
 
-During the testing of the build I discovered that content wasnt appearing exactly as it should on both IE and Edge. I continued to build out my site whilst researching simultaneously what could be done to fix the issues I was encountering. Unfortunately, I have not been able to find any form of fix for IE. This has resulted in the gallery page not displaying any images, or any sort of format for that matter. With Edge, the gallery page isn't centered and again, I've not been able to find a fix for this yet. More research is required to rectify both of these issues.
+During the testing of the build I discovered that content wasnt appearing exactly as it should on both IE and Edge. I continued to build out my site whilst researching simultaneously what could be done to fix the issues I was encountering. Unfortunately, I have not been able to find any form of fix for IE. This has resulted in the gallery page not displaying any images, or any sort of format for that matter. With Edge, the gallery page isn't centered and again, I've not been able to find a fix for this yet. I beleive there is a way to target a specific browser in CSS however I've not been able to find anything yet that rectifys the issue. More research is required to rectify both of these issues. 
 
 ## Deployment
 ---

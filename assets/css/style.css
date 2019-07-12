@@ -141,9 +141,6 @@ header {
     margin: 20px;
 }
 
-_:-ms-lang(x), :-webkit-full-screen, .container-gallery {
-    justify-content: center;
-}
 
 /* I chose to have the below media query only affect sizes 1370px and above because I am happy with the way the images look on all screen sizes below that, however, they looked too strecthed on a a big monitor. 
 the reason I chose a custom width rather than the generic break points was because I had to take the ipad pro in landscape form into account.  */
