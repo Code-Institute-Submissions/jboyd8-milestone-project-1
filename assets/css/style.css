@@ -54,6 +54,8 @@ header {
 }
 
 .navbar {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 
@@ -62,6 +64,8 @@ header {
     font-family: 'Lato', sans-serif;
     position: relative;
     margin: 25px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 
@@ -159,6 +163,7 @@ the reason I chose a custom width rather than the generic break points was becau
 }
 
 .card-img-top {
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -183,6 +188,8 @@ the reason I chose a custom width rather than the generic break points was becau
 .form-container {
     max-width: 90%;
     position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     padding-top: 25px;
