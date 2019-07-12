@@ -101,3 +101,6 @@ To deploy the website to GitHub pages, I followed the below steps:
 * To my mentor, Reuben Ferrante, for guding me through the process and offering assistance when neccesary to point me in the right direction.
 * The Slack community. The help a student is able to receive from the other students is a really great tool to have.
 * Anthony O'Brian and Anna Greaves. The two leads in the User Centric Front End Slack channel during the development of my project. They provide alot of people with good quality help on a daily basis. Additionally, some of Anna's extra documentation that she has created herself came in very useful before and during development.
+
+#### Copied Code
+As stated in the technologies used section, I used various websites to import animations and fonts etc. However, I explicitly copied code from Bootsrap for my Nav Bar and the Card Decks on the Gallery page.
