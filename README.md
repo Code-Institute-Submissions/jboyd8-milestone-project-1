@@ -119,7 +119,7 @@ To deploy the website to GitHub pages, I followed the below steps:
 * [HTML Color Code](https://htmlcolorcodes.com/) - Used this website in order to obtain hex codes whilst styling my pages.
 * [CSS:Hover](https://ianlunn.github.io/Hover/) - Used to import some cool animations used when hovered over a link.
 * [Clip Art Mag](http://clipartmag.com/) - Used this free website to get the favicon for my website.
-* Balsamiq - Used to build out wireframes for my website.
+* [Balsamiq](https://balsamiq.com/) - Used to build out wireframes for my website.
 * [W3C Validator](https://validator.w3.org/#validate_by_input) - A validator used to check my HTML and CSS structure and format periodically throughout the build.
 * [W3Schools](https://www.w3schools.com/) - I used this to ensure I was entering all the information required correctly in my HTML and CSS.
 
