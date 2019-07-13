@@ -11,7 +11,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css"
         type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        type="text/css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Contact</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
@@ -21,97 +22,100 @@
 
     <!-- Header -->
 
-    <header class="not-index-header">
-        <div class="container-fluid container-style">
-            <div class="row no-gutters">
-                <div class="col-8 col-md-6">
-                    <a href="index.html" class="home-link">
-                        <h1 class='name uppercase'>Jamie Boyd</h1>
-                        <h5 class='title uppercase'>Landscape Photographer</h5>
-                    </a>
-                </div>
-                
-                <nav class="col-4 col-md-6 navbar navbar-light navbar-expand-md">
-
-                    <button class='navbar-toggler ml-auto' type="button" data-toggle='collapse' data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class='navbar-toggler-icon'></span></button>
-                    <div class="collapse navbar-collapse" id='navbarNavDropdown'>
-                        <ul class=" navbar-nav">
-                            <li class="nav-item mr-2"><a href="index.html" class="nav-link hvr-float">Home</a></li>
-                            <li class="nav-item mr-2"><a href="about.html" class="nav-link hvr-float">About</a></li>
-                            <li class="nav-item mr-2"><a href="gallery.html" class="nav-link hvr-float">Gallery</a></li>
-                            <li class="nav-item mr-2"><a href="contact.html" class="nav-link hvr-float">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
+    <header class="not-index-header container-fluid container-style">
+        <div class="row no-gutters">
+            <div class="col-8 col-md-6">
+                <a href="index.html" class="home-link">
+                    <h1 class='name uppercase'>Jamie Boyd</h1>
+                    <h5 class='title uppercase'>Landscape Photographer</h5>
+                </a>
             </div>
+
+            <nav class="col-4 col-md-6 navbar navbar-light navbar-expand-md">
+
+                <button class='navbar-toggler ml-auto' type="button" data-toggle='collapse'
+                    data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class='navbar-toggler-icon'></span></button>
+                <div class="collapse navbar-collapse" id='navbarNavDropdown'>
+                    <ul class=" navbar-nav">
+                        <li class="nav-item mr-2"><a href="index.html" class="nav-link hvr-float">Home</a></li>
+                        <li class="nav-item mr-2"><a href="about.html" class="nav-link hvr-float">About</a></li>
+                        <li class="nav-item mr-2"><a href="gallery.html" class="nav-link hvr-float">Gallery</a></li>
+                        <li class="nav-item mr-2"><a href="contact.html" class="nav-link hvr-float">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
 
 
     <!-- Section -->
-    <section>
+    <section class="container form-container">
         <!-- The below code for the form was copied from Bootstrap. It initially came with an email box, password box and a checkbox function but I altered it to the below to fit my needs. I also added the required attribute 
             to ensure all fields had to be filled in before submitting.-->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="contact-heading">Contact</h3>
+                <p>If you have any queries feel free to get in touch using the below form. Likewise, if you would like
+                    to collaborate with me please leave your details.
+                    I try my best to get back to everyone but I cannot guarantee a reply.
+                </p>
 
-        <div class="container form-container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="contact-heading">Contact</h3>
-                    <p>If you have any queries feel free to get in touch using the below form. Likewise, if you would like to collaborate with me please leave your details.
-                        I try my best to get back to everyone but I cannot guarantee a reply.
-                    </p>
-
-                    <form>
-                        <div class="form-group">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" class="form-control" id="fullname" placeholder="Please enter your full name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please enter your email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="query-text">Query</label>
-                            <textarea class="form-control" name="query" id="query-text" placeholder="Please detail your query here" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="Please enter your full name"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Please enter your email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="query-text">Query</label>
+                        <textarea class="form-control" name="query" id="query-text"
+                            placeholder="Please detail your query here" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
-    
-        
+
+
     </section>
 
 
 
 
     <!-- Footer -->
-    <footer class="contact-footer">
-        <div class="container-fluid container-style">
-            <div class="row" id="footer-padding">
-                <div class="col-6">
-                    <h6 class="uppercase footer-color">Important Information</h6>
-                    <p class="footer-color"><small>All images on this website are subject to copywright by Jamie Boyd</small></p>
-                </div>
-                <div class="col-6">
-                    <h6 class="uppercase footer-color">Social</h6>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" rel="noopener" href="https://500px.com/jamieboyd" aria-label="Visit my 500px Profile">
-                                <i class="fab fa-500px" aria-hidden="true"></i>
-                            </a>    
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" rel="noopener" href="https://www.instagram.com/jamieboyddd/?hl=en" aria-label="Visit my Instagram Profile">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <footer class="contact-footer container-fluid container-style">
+        <div class="row" id="footer-padding">
+            <div class="col-6">
+                <h6 class="uppercase footer-color">Important Information</h6>
+                <p class="footer-color"><small>All images on this website are subject to copywright by Jamie
+                        Boyd</small></p>
+            </div>
+            <div class="col-6">
+                <h6 class="uppercase footer-color">Social</h6>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener" href="https://500px.com/jamieboyd"
+                            aria-label="Visit my 500px Profile">
+                            <i class="fab fa-500px" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener" href="https://www.instagram.com/jamieboyddd/?hl=en"
+                            aria-label="Visit my Instagram Profile">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -122,7 +126,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
+
 
 </body>
 

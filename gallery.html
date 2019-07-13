@@ -21,32 +21,30 @@
 <body>
 
     <!-- Header -->
-    <header class="not-index-header">
-        <div class="container-fluid container-style">
-            <div class="row no-gutters">
-                <div class="col-8 col-md-6">
-                    <a href="index.html" class="home-link">
-                        <h1 class='name uppercase'>Jamie Boyd</h1>
-                        <h5 class='title uppercase'>Landscape Photographer</h5>
-                    </a>
-                </div>
-
-                <nav class="col-4 col-md-6 navbar navbar-light navbar-expand-md">
-
-                    <button class='navbar-toggler ml-auto' type="button" data-toggle='collapse'
-                        data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class='navbar-toggler-icon'></span></button>
-                    <div class="collapse navbar-collapse" id='navbarNavDropdown'>
-                        <ul class=" navbar-nav">
-                            <li class="nav-item mr-2"><a href="index.html" class="nav-link hvr-float">Home</a></li>
-                            <li class="nav-item mr-2"><a href="about.html" class="nav-link hvr-float">About</a></li>
-                            <li class="nav-item mr-2"><a href="gallery.html" class="nav-link hvr-float">Gallery</a></li>
-                            <li class="nav-item mr-2"><a href="contact.html" class="nav-link hvr-float">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
+    <header class="not-index-header container-fluid container-style">
+        <div class="row no-gutters">
+            <div class="col-8 col-md-6">
+                <a href="index.html" class="home-link">
+                    <h1 class='name uppercase'>Jamie Boyd</h1>
+                    <h5 class='title uppercase'>Landscape Photographer</h5>
+                </a>
             </div>
+
+            <nav class="col-4 col-md-6 navbar navbar-light navbar-expand-md">
+
+                <button class='navbar-toggler ml-auto' type="button" data-toggle='collapse'
+                    data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class='navbar-toggler-icon'></span></button>
+                <div class="collapse navbar-collapse" id='navbarNavDropdown'>
+                    <ul class=" navbar-nav">
+                        <li class="nav-item mr-2"><a href="index.html" class="nav-link hvr-float">Home</a></li>
+                        <li class="nav-item mr-2"><a href="about.html" class="nav-link hvr-float">About</a></li>
+                        <li class="nav-item mr-2"><a href="gallery.html" class="nav-link hvr-float">Gallery</a></li>
+                        <li class="nav-item mr-2"><a href="contact.html" class="nav-link hvr-float">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -59,193 +57,203 @@
     body so that a user can click to see the full size image. I added the target so it opens in a different tab and also changed the CSS on the default 
     color to match my colour theme. I then wrapped it in .container-gallery so I could alter the font and structure.-->
 
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 gallery-heading">
-                    <h3>
-                        Gallery
-                    </h3>
-                    <p>Take a look through some of my favourite images.</p>
-                    <p>WARNING! Clicking the button to view an image full size will open a new tab outside the website.</p>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 gallery-heading">
+                <h3>
+                    Gallery
+                </h3>
+                <p>Take a look through some of my favourite images.</p>
+                <p>WARNING! Clicking the button to view an image full size will open a new tab outside the website.</p>
+            </div>
+            <div class="container-gallery">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/images/portugalsunsetlighthouse.jpg" class="card-img-top"
+                            alt="Lighthouse on top of a cliff at sunset">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 4.0s<br>
+                                ISO: 200<br>
+                                Focal Length: 47mm
+                            </p>
+                            <a href="assets/images/portugalsunsetlighthouse.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/portugalsunsetcliffs.jpg" class="card-img-top"
+                            alt="Cliffs by the sea at sunset with a bright moon">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 4.0s<br>
+                                ISO: 500<br>
+                                Focal Length: 41mm
+                            </p>
+                            <a href="assets/images/portugalsunsetcliffs.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/walestree.jpg" class="card-img-top"
+                            alt="A tree with no leaves at the side of a lake">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 1/500s<br>
+                                ISO: 4000<br>
+                                Focal Length: 27mm</p>
+                            <a href="assets/images/walestree.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="container-gallery">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/images/portugalsunsetlighthouse.jpg" class="card-img-top" alt="Lighthouse on top of a cliff at sunset">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 4.0s<br>
-                                    ISO: 200<br>
-                                    Focal Length: 47mm
-                                </p>
-                                <a href="assets/images/portugalsunsetlighthouse.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/images/portugalsunsetcliffs.jpg" class="card-img-top" alt="Cliffs by the sea at sunset with a bright moon">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 4.0s<br>
-                                    ISO: 500<br>
-                                    Focal Length: 41mm
-                                </p>
-                                <a href="assets/images/portugalsunsetcliffs.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/images/walestree.jpg" class="card-img-top" alt="A tree with no leaves at the side of a lake">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 1/500s<br>
-                                    ISO: 4000<br>
-                                    Focal Length: 27mm</p>
-                                <a href="assets/images/walestree.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/images/anglezarkebrokentree.jpg" class="card-img-top"
+                            alt="A broken dead tree surrounded by trees in autumnal colours">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 1/160s<br>
+                                ISO: 2500<br>
+                                Focal Length: 70mm
+                            </p>
+                            <a href="assets/images/anglezarkebrokentree.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
                         </div>
                     </div>
-
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/images/anglezarkebrokentree.jpg" class="card-img-top" alt="A broken dead tree surrounded by trees in autumnal colours">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 1/160s<br>
-                                    ISO: 2500<br>
-                                    Focal Length: 70mm
-                                </p>
-                                <a href="assets/images/anglezarkebrokentree.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/images/anglezarkefog.jpg" class="card-img-top" alt="A reservior with a cloud of fog over it">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/2.8<br>
-                                    Shutter Spead: 1/1250s<br>
-                                    ISO: 100<br>
-                                    Focal Length: 65mm
-                                </p>
-                                <a href="assets/images/anglezarkefog.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/images/anglezarkepath.jpg" class="card-img-top" alt="A path leading through very high trees">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 1/500s<br>
-                                    ISO: 10000<br>
-                                    Focal Length: 39mm
-                                </p>
-                                <a href="assets/images/anglezarkepath.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
+                    <div class="card">
+                        <img src="assets/images/anglezarkefog.jpg" class="card-img-top"
+                            alt="A reservior with a cloud of fog over it">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/2.8<br>
+                                Shutter Spead: 1/1250s<br>
+                                ISO: 100<br>
+                                Focal Length: 65mm
+                            </p>
+                            <a href="assets/images/anglezarkefog.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
                         </div>
                     </div>
-
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/images/entwistlesunrise.jpg" class="card-img-top" alt="Sunrise over a reservoir">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 1/6s<br>
-                                    ISO: 100<br>
-                                    Focal Length: 47mm
-                                </p>
-                                <a href="assets/images/entwistlesunrise.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/images/entwistlesunset1.jpg" class="card-img-top" alt="Sunset over a reservior with the trees as a silhouette">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/11<br>
-                                    Shutter Spead: 1/20s<br>
-                                    ISO: 100<br>
-                                    Focal Length: 45mm
-                                </p>
-                                <a href="assets/images/entwistlesunset1.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/images/entwistletree.jpg" class="card-img-top" alt="a lone tree reflectig in some water beneath it">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/8<br>
-                                    Shutter Spead: 1/80s<br>
-                                    ISO: 2500<br>
-                                    Focal Length: 63mm
-                                </p>
-                                <a href="assets/images/entwistletree.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
+                    <div class="card">
+                        <img src="assets/images/anglezarkepath.jpg" class="card-img-top"
+                            alt="A path leading through very high trees">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 1/500s<br>
+                                ISO: 10000<br>
+                                Focal Length: 39mm
+                            </p>
+                            <a href="assets/images/anglezarkepath.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/images/formbydunes.jpg" class="card-img-top" alt="Sand dunes across the back of a beach">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/22<br>
-                                    Shutter Spead: 1/20s<br>
-                                    ISO: 100<br>
-                                    Focal Length: 70mm
-                                </p>
-                                <a href="assets/images/formbydunes.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/images/entwistlesunrise.jpg" class="card-img-top"
+                            alt="Sunrise over a reservoir">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 1/6s<br>
+                                ISO: 100<br>
+                                Focal Length: 47mm
+                            </p>
+                            <a href="assets/images/entwistlesunrise.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
                         </div>
-                        <div class="card">
-                            <img src="assets/images/formbytrees.jpg" class="card-img-top" alt="black and white image of trees with sun light shining through onto them">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/6.3<br>
-                                    Shutter Spead: 1/50s<br>
-                                    ISO: 100<br>
-                                    Focal Length: 70mm
-                                </p>
-                                <a href="assets/images/formbytrees.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/entwistlesunset1.jpg" class="card-img-top"
+                            alt="Sunset over a reservior with the trees as a silhouette">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/11<br>
+                                Shutter Spead: 1/20s<br>
+                                ISO: 100<br>
+                                Focal Length: 45mm
+                            </p>
+                            <a href="assets/images/entwistlesunset1.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
                         </div>
-                        <div class="card">
-                            <img src="assets/images/formbybeachwater.jpg" class="card-img-top" alt="An s line of water making its way through the sand of the beach">
-                            <div class="card-body">
-                                <h5 class="card-title">Tech Specs</h5>
-                                <p class="card-text">
-                                    F-Stop: f/7.1<br>
-                                    Shutter Spead: 1/320s<br>
-                                    ISO: 100<br>
-                                    Focal Length: 35mm
-                                </p>
-                                <a href="assets/images/formbybeachwater.jpg" target="_blank" rel="noopener"
-                                    class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/entwistletree.jpg" class="card-img-top"
+                            alt="a lone tree reflectig in some water beneath it">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/8<br>
+                                Shutter Spead: 1/80s<br>
+                                ISO: 2500<br>
+                                Focal Length: 63mm
+                            </p>
+                            <a href="assets/images/entwistletree.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/images/formbydunes.jpg" class="card-img-top"
+                            alt="Sand dunes across the back of a beach">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/22<br>
+                                Shutter Spead: 1/20s<br>
+                                ISO: 100<br>
+                                Focal Length: 70mm
+                            </p>
+                            <a href="assets/images/formbydunes.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/formbytrees.jpg" class="card-img-top"
+                            alt="black and white image of trees with sun light shining through onto them">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/6.3<br>
+                                Shutter Spead: 1/50s<br>
+                                ISO: 100<br>
+                                Focal Length: 70mm
+                            </p>
+                            <a href="assets/images/formbytrees.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/formbybeachwater.jpg" class="card-img-top"
+                            alt="An s line of water making its way through the sand of the beach">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Specs</h5>
+                            <p class="card-text">
+                                F-Stop: f/7.1<br>
+                                Shutter Spead: 1/320s<br>
+                                ISO: 100<br>
+                                Focal Length: 35mm
+                            </p>
+                            <a href="assets/images/formbybeachwater.jpg" target="_blank" rel="noopener"
+                                class="btn btn-primary hvr-grow">FULL SIZE IMAGE</a>
                         </div>
                     </div>
                 </div>
@@ -261,29 +269,29 @@
     <!-- I created a custom class just for the gallery footer because it needs to be relative as the images on the gallery page will
         be longer than the page itself. -->
 
-    <footer class="gallery-footer">
-        <div class="container-fluid container-style">
-            <div class="row" id="footer-padding">
-                <div class="col-6">
-                    <h6 class="uppercase footer-color">Important Information</h6>
-                    <p class="footer-color"><small>All images on this website are subject to copywright by Jamie
-                            Boyd</small></p>
-                </div>
-                <div class="col-6">
-                    <h6 class="uppercase footer-color">Social</h6>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" rel="noopener" href="https://500px.com/jamieboyd" aria-label="Visit my 500px Profile">
-                                <i class="fab fa-500px" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" rel="noopener" href="https://www.instagram.com/jamieboyddd/?hl=en" aria-label="Visit my Instagram Profile">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <footer class="gallery-footer container-fluid container-style">
+        <div class="row" id="footer-padding">
+            <div class="col-6">
+                <h6 class="uppercase footer-color">Important Information</h6>
+                <p class="footer-color"><small>All images on this website are subject to copywright by Jamie
+                        Boyd</small></p>
+            </div>
+            <div class="col-6">
+                <h6 class="uppercase footer-color">Social</h6>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener" href="https://500px.com/jamieboyd"
+                            aria-label="Visit my 500px Profile">
+                            <i class="fab fa-500px" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener" href="https://www.instagram.com/jamieboyddd/?hl=en"
+                            aria-label="Visit my Instagram Profile">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 
