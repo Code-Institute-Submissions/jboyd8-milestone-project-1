@@ -3,7 +3,7 @@
 
 
 
-/* ------------------------------------------------------------------------------------------------------- Misc */
+/* Misc */
 /* I added the HTML tag so that my image would cover the full viewport */
 html {
     height: 100%;
@@ -22,7 +22,7 @@ html {
 
 
 
-/* -------------------------------------------------------------------------------------------------------- Header */
+/* Header */
 
 header {
     margin: 0;
@@ -69,7 +69,7 @@ header {
     justify-content: flex-end;
 }
 
-/* I added multiple media queries throughout my CSS to ensure that y website was responsive at all screen sizes */
+/* I added multiple media queries throughout my CSS to ensure that my website was responsive at all screen sizes */
 
 @media (min-width: 576px) {
     .nav-item {
@@ -125,7 +125,7 @@ header {
     text-decoration: none;
 }
 
-/* -------------------------------------------------------------------------------- Gallery */
+/* Gallery */
 
 .gallery-heading {
     font-family: "Roboto", sans-serif;
@@ -185,7 +185,7 @@ the reason I chose a custom width rather than the generic break points was becau
 }
 
 
-/* ------------------------------------------------------------------------------ Contact */
+/* Contact */
 
 .form-container {
     max-width: 90%;
@@ -217,7 +217,7 @@ the reason I chose a custom width rather than the generic break points was becau
 
 
 
-/* ----------------------------------------------------------------------------------------------------------------------- Footer */
+/* Footer */
 
 footer {
     width: 100%;
