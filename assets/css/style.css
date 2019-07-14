@@ -74,6 +74,11 @@ header {
     background-color: #e6dcc7;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-weight: 600;
+}
+
 
 
 
