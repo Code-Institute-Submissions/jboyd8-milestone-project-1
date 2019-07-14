@@ -97,6 +97,7 @@ header {
 
 
 /* I seperated the padding of name as it was too close to the top of the page but I was happy with the spacing between name and title */
+
 .name { 
     padding-top: 12px;
 }
